@@ -4,7 +4,8 @@ const app=express('');
 const cors=require('cors')
 const mongoose=require('mongoose')
 
-const MONGO_URI = 'mongodb://localhost:27017/DG';
+const MONGO_URI = 'mongodb+srv://Hyzeah:wpOLq80kZ8PtpobJ@cluster0.iig3hxs.mongodb.net/?retryWrites=true&w=majority';
+
 app.use(express.json());
 app.use(express.urlencoded());
 app.use(cors());

@@ -6,7 +6,6 @@ const {
     updateTask
 } = require('../controllers/TaskControllers')
 
-
 const router = Router()
 
 router.get('/get', getTasks)

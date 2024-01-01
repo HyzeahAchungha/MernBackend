@@ -16,10 +16,6 @@ app.use(function (req, res, next) {
 
 const routes =require('./Routes/TaskRoutes')
 
-
-
-
-
 app.use( "/api",routes)
 
 
